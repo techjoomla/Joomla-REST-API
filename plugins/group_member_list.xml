@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="restapi">
+	<name>Group Member List - Example</name>
+	<author>Joomla! Project</author>
+	<creationDate>Dec 2010</creationDate>
+	<copyright>Copyright (C) 2010 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.5</version>
+	<description>An example of an group member list plugin</description>
+	<files>
+		<filename plugin="group_member_list">group_member_list.php</filename>
+	</files>
+	<params/>
+</install>
