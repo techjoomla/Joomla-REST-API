@@ -1,0 +1,70 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" value="application/xhtml+xml" /> 
+<meta http-equiv="Cache-Control" content="max-age=200" /> 
+<head>
+<title>REST API for Joomla</title>
+
+<link media="Screen" type="text/css" href="css/web.css" rel="stylesheet"/>
+<link media="handheld" type="text/css" href="css/hand.css" rel="stylesheet"/>
+
+</head>
+<body>
+<!--<a class="config" href="#" >Configure</a>
+
+<div id="configform" >
+<div id="stylized" class="configform">
+<form id="form1" name="config_form" method="post" action="ajax.php">
+    <label>User Name
+    </label>
+    <input type="text" value="" maxlength="128" size="105" name="username" tabindex="1" />
+
+    <label>Password
+    </label>
+    <input type="text" value="" maxlength="128" size="105" name="password" tabindex="1" />
+
+    <label>Mantis WSDL Url
+    </label>
+    <input type="text" value=""  size="220" name="password" tabindex="1" />
+<div>
+<input type="hidden" name="task" id="task" value="saveconfig"  size="20"/>
+<button value="Submit Report">Save</button>
+</div>
+</div>
+</div>-->
+<!--Show Add Bug Form -->
+<div id="stylized" class="myform">
+  <form id="form1" name="form1" method="post" action="group_create.php">
+    <h1>Create Group</h1>
+    <p>New group info</p>
+<div class="msg" id="msg"></div>
+    <label>Name
+        <span class="small">Group name</span>
+    </label>
+    <input type="text" value="" maxlength="128" size="105" name="name" tabindex="1" />
+
+    <label>Description
+        <span class="small">Group Description</span>
+    </label>
+    <input type="text" value="" maxlength="128" size="105" name="description" tabindex="2" />
+
+    <label>Owner (user id)
+        <span class="small">User id of owner</span>
+    </label>
+    <input type="text" value="79" maxlength="128" size="105" name="ownerid" tabindex="4" />
+
+<div>
+
+
+
+
+<button value="Save" onclick="this.form.submit()">Save</button>
+
+
+</div>
+    <div class="spacer"></div>
+
+  </form>
+</div>
+
+</body>
+

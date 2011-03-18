@@ -1,0 +1,171 @@
+/*
+  iPhoneUI.css
+  
+  Base styles for iPhone Web applications, based on Apple's
+  recommended user interface styles.
+  
+  http://developer.apple.com/iphone/designingcontent.html
+*/
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.edgeToEdge {
+  background-color: #fff;
+  border-spacing: 0;
+  border-width: 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.edgeToEdge.formButtons {
+  margin: 0;
+  padding: 10px;
+}
+
+.edgeToEdge .formList {
+  font-weight: normal;
+}
+
+.edgeToEdge.formFields textarea,
+.roundedRect.formFields textarea,
+.roundedRect .formFields textarea {
+  clear: left;
+  display: block;
+  width: 296px;
+}
+
+dl.edgeToEdge.formFields dd,
+dl.roundedRect.formFields dd,
+.roundedRect .formFields dd {
+  border-bottom: 1px solid rgb(217,217,217);
+  padding: 10px;
+  margin: 0;
+  text-align: right;
+}
+
+dl.edgeToEdge.formFields dd.last,
+dl.roundedRect.formFields dd.last,
+.roundedRect .formFields dd.last {
+  border-bottom-width: 0;
+}
+
+dl.edgeToEdge.formFields dt,
+dl.roundedRect.formFields dt,
+.roundedRect .formFields dt {
+  clear: left;
+  float: left;
+  padding: 10px 10px 0 10px;
+  margin: 0;
+}
+
+p.edgeToEdgeLast {
+  border-bottom-width: 0;
+}
+
+form {
+  margin: 0;
+}
+
+.formButtons {
+  text-align: right;
+}
+
+.formList {
+  list-style-type: none;
+  margin: 0 0 -.33em 0;
+  padding: 0;
+}
+
+.formList li {
+  margin-bottom: .33em;
+}
+
+.formResults {
+  background-color: #fff;
+  -webkit-border-radius: 8px;
+  color: #900;
+  font: normal normal bold 17px/normal Helvetica, Arial, sans-serif;
+  margin: 1em 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.iphone-preview-landscape,
+.iphone-preview-portrait {
+  background-color: #A3A3A3;
+  border: 1px solid #000;
+  margin: 1em auto;
+  min-height: 320px;
+  width: 356px;
+}
+
+.iphone-preview-portrait {
+  min-height: 356px;
+  width: 320px;
+}
+
+.roundedRect {
+  background-color: #fff;
+  border-width: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px;
+  -webkit-border-radius: 8px 8px;
+}
+
+body.roundedRect,
+body.roundedRect .iphone-preview-landscape {
+  background-color: #C5CCD3;
+}
+
+body.roundedRect {
+  font: normal normal bold 17px/normal Helvetica, Arial, sans-serif;
+}
+
+div.roundedRect {
+  margin: .6em 10px 1em 10px;
+  padding: 1px 10px;
+}
+
+p.roundedRect {
+  padding: 10px;
+}
+
+.roundedRectHead,
+.roundedRect legend {
+  color: rgb(76,86,108);
+  font: normal normal bold 17px/normal Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.roundedRectIntHead {
+  font: normal normal normal 21px/normal Helvetica, Arial, sans-serif;
+  margin: 1em 0 -.75em 0;
+}
+
+fieldset.roundedRect {
+  margin: 2em 10px 1em 10px;
+  padding: 0 0 1px 0;
+}
+
+fieldset.roundedRect p {
+  margin: 1em 10px;
+}
+
+.roundedRect legend {
+  padding-left: 10px;
+  position: relative;
+  top: -.8em;
+}
+
+.roundedRectHead {
+  margin: 1em 20px -.5em 20px;
+}
+

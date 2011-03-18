@@ -1,0 +1,46 @@
+
+/* mobile styles */
+@media handheld {
+
+	html, body {
+		font: 12px/15px sans-serif;
+		background: #fff;
+		padding: 3px;
+		color: #000;
+		margin: 0;
+		}
+	#sidebar, #footer {
+		display: none;
+		}
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: normal;
+		}
+	#content img { 
+		max-width: 250px;
+		}
+	.center {
+		width: 100%; !important;
+		text-align: center;
+		}
+	a:link, a:visited {
+		text-decoration: underline;
+		color: #0000CC;
+		}
+	a:hover, a:active {
+		text-decoration: underline;
+		color: #660066;
+		}
+
+}
+/* iPhone-specific styles */
+@media only screen and (max-device-width: 480px) { 
+
+	html {
+		-webkit-text-size-adjust: none;
+		}
+
+}
+.myform{
+	margin:0 auto;
+	padding:14px;
+}
