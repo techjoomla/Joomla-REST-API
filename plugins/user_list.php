@@ -40,11 +40,6 @@ class plgRestapiUser_List extends JPlugin
 		$wheresql			= '';
 		$flag 				= false;
 
-    		if($id == 0)
-		{
-			$flag = true;
-		}
-		
 		if ($id!="" && $id!=0 && $id) {
 			$where[] = 'id = ' . $id;
 			$flag = false;
