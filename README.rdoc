@@ -38,4 +38,5 @@ Following plugins are available
 
 = Notes
 
-* If you see 404 error make sure you have correctly copied the .htaccess file in the 'rest' folder
+* If you see 404 error make sure you have correctly copied the .htaccess file in the 'rest' folder. This is a hidden file and would normally not get copied.
+* Note that you need to copy the .htaccess from the 'server' folder and not Joomla's .htaccess file. The 2 are different
