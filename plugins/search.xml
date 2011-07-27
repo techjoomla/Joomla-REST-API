@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="restapi">
+	<name>REST - Search</name>
+	<author>Ashwin Date</author>
+	<creationDate>06/05/2011</creationDate>
+	<copyright>Copyright (C) 2011 Tekdi Web Solutions.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>extensions@techjoomla.com</authorEmail>
+	<authorUrl>www.techjoomla.com</authorUrl>
+	<version>1.5</version>
+	<description>Search API</description>
+	<files>
+		<filename plugin="search">search.php</filename>
+	</files>
+	<params/>
+</install>
