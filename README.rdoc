@@ -1,33 +1,28 @@
 = Joomla REST API
 
-This is a REST API server for Joomla, along with a lot of bundled plugins
+This is a REST API server for Joomla 1.5 & 1.6, along with a lot of bundled plugins
 
 Following plugins are available
 * Create/Update/List/Delete users with Jomsocial support
 * Create/Update/List/Delete Jomsocial groups
 * Create/Update/List/Delete Jomsocial group discussions, announcements and wall posts
-* Create/Update/List/Delete Jomsocial events
-* Create content
-* List categories/sections
-* Joomla Search
+* Create/Update/List/Delete Jomsocial events (1.5 only)
+* Create content (1.5 only)
+* List categories/sections (1.5 only)
+* Joomla Search (1.5 only)
 
-
-= Prerequisites
-
-* Joomla 1.5.x
-* Tested on Joomla 1.5.20 and above
 
 = Installation
 
 - cd YOUR_JOOMLA_FOLDER/rest
-- Copy contents of 'server' folder to the above folder
+- Copy contents of 'server' folder from either the Joomla 1.5 or 1.6 to the above folder
 - Install & enable the plugins. Unfortunately I have not provided installable plugins yet, but you can zip the php & xml and create packages
 - you're done
 
 = Using the API
 
-* Create requests need a username and password for administrator account
-* Send as auth_user & auth_pass
+* Requests to the create, update & delete methods need a username and password. You can use any Joomla Super admin account username & password for this.
+* Send the username as auth_user and password as auth_pass
 * Send other relevant fields according to method
 
 == Querying the API (at last)
