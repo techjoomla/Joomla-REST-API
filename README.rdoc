@@ -1,40 +1,5 @@
 = Joomla REST API
 
-This is a REST API server for Joomla 1.5 & 1.6, along with a lot of bundled plugins
+This implementaion of the Joomla REST API is no longer used, supported, maintained or recommended. Please use the newer com_api which can be fond here
 
-Following plugins are available
-* Create/Update/List/Delete users with Jomsocial support
-* Create/Update/List/Delete Jomsocial groups
-* Create/Update/List/Delete Jomsocial group discussions, announcements and wall posts
-* Create/Update/List/Delete Jomsocial events (1.5 only)
-* Create content (1.5 only)
-* List categories/sections (1.5 only)
-* Joomla Search (1.5 only)
-
-
-= Installation
-
-- cd YOUR_JOOMLA_FOLDER/rest
-- Copy contents of 'server' folder from either the Joomla 1.5 or 1.6 to the above folder
-- Install & enable the plugins. Unfortunately I have not provided installable plugins yet, but you can zip the php & xml and create packages
-- you're done
-
-= Using the API
-
-* Requests to the create, update & delete methods need a username and password. You can use any Joomla Super admin account username & password for this.
-* Send the username as auth_user and password as auth_pass
-* Send other relevant fields according to method
-
-== Querying the API (at last)
-
-* GET 	http://yoursite.com/rest/user_list.json
-* POST 	http://yoursite.com/rest/user_create.json
-* POST 	http://yoursite.com/rest/user_update.json
-
-
-= Troubleshooting / Notes / FAQs
-
-* If you see 404 error make sure you have correctly copied the .htaccess file in the 'rest' folder. This is a hidden file and would normally not get copied.
-* Note that you need to copy the .htaccess from the 'server' folder and not Joomla's .htaccess file. These 2 are different
-* In spite of adding the .htaccess if you get a 404 error, you should try URLs in the following format - http://yoursite.com/rest/index.php/user_update.json
-
+https://github.com/techjoomla/com_api
